@@ -4,7 +4,7 @@
 
 ### 1. Communication structure
 
-![CommuStruc](img_commu_struct.jpg)
+![CommuStruc](https://github.com/ML1998/EDAtools/tree/main/FIR/img_commu_struct.jpg)
 
 1. 8-PAM Modulated: signals must be one of [-7,-5,-3,-1,1,3,5,7]
 
@@ -14,7 +14,7 @@
 
 ### 2. FIR
 
-![FIRStruc](img_FIR_structure.jpg)
+![FIRStruc](https://github.com/ML1998/EDAtools/tree/main/FIR/img_FIR_structure.jpg)
 
 For a causal discrete-time FIR filter of order N, each value of the output sequence is a weighted sum of the most recent input values:
 
@@ -41,9 +41,9 @@ For a causal discrete-time FIR filter of order N, each value of the output seque
 ## Result 
 ### 1. Magnitude & Impulse Response
 
-![MagResponse](img_MagResponse.png)
+![MagResponse](https://github.com/ML1998/EDAtools/tree/main/FIR/img_MagResponse.png)
 
-![ImpulseResponse](img_ImpulseResponse.png)
+![ImpulseResponse](https://github.com/ML1998/EDAtools/tree/main/FIR/img_ImpulseResponse.png)
 
 ### 2. Simulated using Modelsim SE-64 10.4
 
@@ -51,4 +51,4 @@ shape0: output of HDL implemention
 
 shape1: output of C implemention
 
-![simulation_result](img_simulation_result.jpg)
+![simulation_result](https://github.com/ML1998/EDAtools/tree/main/FIR/img_simulation_result.jpg)
